@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Alex/Documents/NetBeansProjects/Client/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Client</title>
+        <vendor>Александр</vendor>
+        <homepage href=""/>
+        <description>Client</description>
+        <description kind="short">Client</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="Client.jar" main="true"/>
+    <jar href="lib/liquidlnf.jar"/>
+<jar href="lib/MC.jar"/>
+</resources>
+    <application-desc main-class="com.Client.net.Client">
+    </application-desc>
+</jnlp>
